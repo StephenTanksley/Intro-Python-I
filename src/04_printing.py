@@ -14,4 +14,9 @@ z = "I like turtles!"
 
 # Use the 'format' string method to print the same thing
 
+print(f"x is {x}, y is {y}, z is {z}")
+
 # Finally, print the same thing using an f-string
+
+f_string = f"x is {x}, y is {y}, z is {z}"
+print(f_string)
