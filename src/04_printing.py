@@ -12,7 +12,8 @@ z = "I like turtles!"
 # y, and z:
 # x is 10, y is 2.25, z is "I like turtles!"
 
-# STILL NEED TO DO THIS
+# you use i to indicate integers, d for decimals, s for strings. Then you provide arguments using an argument mapping : % (x, y, z)
+print("x is %i, y is %d, z is %s." % (x, y, z))
 
 # Use the 'format' string method to print the same thing
 
