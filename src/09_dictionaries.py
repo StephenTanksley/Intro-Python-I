@@ -50,6 +50,7 @@ print(waypoints)
 # waypoints list.
 
 # YOUR CODE HERE
+# This implementation will update both values, but it is inefficient.
 # waypoints[0]["lon"] = -130
 # waypoints[0]["name"] = "not a real place"
 
