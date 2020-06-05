@@ -15,19 +15,23 @@ a = [2, 4, 1, 7, 9, 6]
 print(a[1])
 
 # Output the second-to-last element: 9
-print(a[len(a) - 2])
+print(a[-2])  # this is the same as print(a[len(a) - 2])
 
 # Output the last three elements in the array: [7, 9, 6]
-print(a[3: len(a)])
+# print(a[3: len(a)]) <--- we start from negative 3.
+# Then we use : to indicate our stop. Then don't put in a value for the stop.
+# This means it'll go to the end.
+
+print(a[-3:])
 
 # Output the two middle elements in the array: [1, 7]
 print(a[2: 4])
 
 # Output every element except the first one: [4, 1, 7, 9, 6]
-print(a[1: len(a)])
+print(a[1:])
 
 # Output every element except the last one: [2, 4, 1, 7, 9]
-print(a[:len(a)-1])
+print(a[:-1])
 
 # For string s...
 
