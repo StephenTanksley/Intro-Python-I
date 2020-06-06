@@ -62,8 +62,8 @@ for i in waypoints:
             "lon": -130,
             "name": "not a real place"
         })
+    print(i)
 
-print(waypoints[0])
 
 # Write a loop that prints out all the field values for all the waypoints
 # YOUR CODE HERE
