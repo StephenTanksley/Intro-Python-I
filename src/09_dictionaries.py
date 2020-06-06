@@ -51,13 +51,17 @@ print(waypoints)
 
 # YOUR CODE HERE
 # This implementation will update both values, but it is inefficient.
+
 # waypoints[0]["lon"] = -130
 # waypoints[0]["name"] = "not a real place"
 
-waypoints[0].update({
-    "lon": -130,
-    "name": "not a real place"
-})
+
+for i in waypoints:
+    if i["name"] == "a place":
+        i.update({
+            "lon": -130,
+            "name": "not a real place"
+        })
 
 print(waypoints[0])
 
