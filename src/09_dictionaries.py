@@ -59,7 +59,6 @@ waypoints[0].update({
     "name": "not a real place"
 })
 
-
 print(waypoints[0])
 
 # Write a loop that prints out all the field values for all the waypoints
