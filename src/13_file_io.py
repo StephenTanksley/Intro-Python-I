@@ -9,6 +9,11 @@ https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
 # Print all the contents of the file, then close the file
 # Note: pay close attention to your current directory when trying to open "foo.txt"
 
+foo = open('foo.txt', 'r')
+print(foo.read())
+foo.close()
+
+
 # YOUR CODE HERE
 
 # Open up a file called "bar.txt" (which doesn't exist yet) for
@@ -17,3 +22,11 @@ https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
 # sure that it contains what you expect it to contain
 
 # YOUR CODE HERE
+
+bar = open('bar.txt', 'w')
+bar.write('Haikus are easy \n but sometimes do not make sense \n Refrigerator.')
+bar.close()
+
+baz = open('bar.txt', 'r')
+print(baz.read())
+baz.close()
